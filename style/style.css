@@ -1,24 +1,26 @@
+/* RESET */
 * {
-  /* RESET */
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
   margin: 0;
   padding: 0;
+  font-family: var(--font-family);
+}
 
-  /* COLORS */
+/* COLORS */
+:root {
   --color1: #F7F6F2;
   --color2: #F0E5CF;
   --color3: #C8C6C6;
   --color4: #113946;
   --color5: #8C0000;
-  font-family: "Figtree", sans-serif;
+  --font-family: "Figtree", sans-serif;
 }
 
 html {
   color: var(--color4);
   background-color: var(--color1);
-  min-width: 600px;
 }
 
 /* HEADER */
@@ -26,7 +28,7 @@ html {
   height: 120px;
 }
 
-/* logo */
+/* LOGO */
 .header__a {
   margin: 0 50px;
 }
@@ -35,7 +37,7 @@ html {
   width: 350px;
 }
 
-/* barra de navegación */
+/* BARRA DE NAVEGACIÓN */
 .navbar-collapse {
   justify-content: center;
 }
@@ -73,7 +75,7 @@ html {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  background-color: rgb(17, 57, 70, 0.9);
+  background-color: rgba(17, 57, 70, 0.9);
   padding: 10px;
   border-radius: 10px;
   font-weight: 100;
@@ -161,7 +163,6 @@ html {
 
 /* categorias */
 .categorias {
-  height: 260px;
   margin: 70px auto;
   display: grid;
   grid-template-columns: auto;
@@ -203,7 +204,7 @@ html {
   flex-direction: column;
   font-size: 16px;
   color: var(--color4);
-  height: 162px;
+  height: 182px;
   border: solid 1px var(--color1);
   border-radius: 10px;
 }
@@ -224,7 +225,7 @@ html {
 
 .categorias__img {
   border-radius: 10px;
-  width: 160px;
+  width: 180px;
 }
 
 /* colores */
@@ -367,7 +368,7 @@ html {
 
 /* MEDIA QUERIES INDEX*/
 
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
 
   /* logo */
   .navbar__logo {
@@ -394,13 +395,18 @@ html {
 
   /* categorias */
   .categorias {
-    height: 400px;
+    height: 490px;    /* dar altura con suma de contenedores */
   }
 
   .categorias__bloques {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    height: 354px;
+  }
+
+  .categorias__a { /* COPIAR EN TODOS */
+    height: 162px;
   }
 
   .categorias__img {
@@ -728,6 +734,8 @@ html {
   }
 
 }
+
+
 
 /* PAGINA MUEBLES */
 /* PAGINA MUEBLES */
@@ -1194,5 +1202,5 @@ margin: 40px 0;
 .main__contacto {
   height: 650px;
   padding: 10px 100px;
-  color:var(--color4)
+  color: var(--color4)
 }
