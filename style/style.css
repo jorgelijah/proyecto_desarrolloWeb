@@ -857,16 +857,6 @@ html {
 /* PAGINA MUEBLES */
 /* PAGINA MUEBLES */
 /* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
 
 .main__muebles {
   margin: 0 auto;
@@ -895,7 +885,7 @@ html {
 .etiquetas__texto {
   display: flex;
   width: 300px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 /* 3 */
@@ -977,21 +967,6 @@ html {
   /* 3 */
   .muebles__imagen {
     display: grid;
-    grid-template-columns: repeat(3, 200px);
-    gap: 50px 10px;
-    justify-content: center;
-  }
-
-  .imagen__img {
-    width: 200px;
-  }
-}
-
-@media (max-width: 900px) {
-
-  /* 3 */
-  .muebles__imagen {
-    display: grid;
     grid-template-columns: repeat(2, 300px);
     gap: 50px 10px;
     justify-content: center;
@@ -1049,6 +1024,24 @@ html {
 
   .imagen__img {
     width: 350px;
+  }
+}
+
+@media (max-width: 414px) {
+
+  .etiquetas {
+    flex-direction: column;
+    font-size: 14px;
+
+  }
+
+  .etiquetas__texto {
+    flex-direction: row;
+    width: 200px;
+  }
+
+  .imagen__img {
+    width: 250px;
   }
 }
 
