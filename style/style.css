@@ -806,12 +806,27 @@ html {
     width: 250px;
   }
 
+  .navbar-toggler-icon {
+    width: 20px;
+  }
+
   .slogan__h2 {
     font-size: 30px;
   }
 }
 
 @media (max-width: 480px) {
+  .header__a {
+    margin: 0 20px;
+  }
+  
+  .header__img {
+    width: 180px;
+  }
+
+  .nav__a {
+    font-size: 12px;
+  }
 
   .online,
   .diseñador {
@@ -1038,6 +1053,10 @@ html {
   .etiquetas__texto {
     flex-direction: row;
     width: 200px;
+  }
+
+  .muebles__imagen {
+    justify-items: center;
   }
 
   .imagen__img {
