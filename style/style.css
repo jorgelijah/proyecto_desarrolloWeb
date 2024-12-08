@@ -1309,17 +1309,25 @@ html {
 /* PAGINA CONTACTO */
 /* PAGINA CONTACTO */
 .main__contacto {
-  height: 650px;
+  height: 550px;
   padding: 10px 100px;
   color: var(--color4)
 }
 
-@media (max-width: 414px) {
+.h3__contacto {
+  padding: 20px 0;
+  border-top: solid 1px var(--color3);
+  font-weight: 400;
+}
+
+@media (max-width: 650px) {
   .main__contacto {
     margin: 0 50px;
     padding: 0;
   }
 }
+
+@media (max-width: 414px) {}
 
 /* Animación para las imágenes */
 @keyframes fadeIn {
