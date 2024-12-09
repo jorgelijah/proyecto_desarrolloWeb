@@ -1,0 +1,19 @@
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == 1440 {
+    @media (max-width: $breakpoint-1440) { @content; }
+  } @else if $breakpoint == 1200 {
+    @media (max-width: $breakpoint-1200) { @content; }
+  } @else if $breakpoint == 1024 {
+    @media (max-width: $breakpoint-1024) { @content; }
+  } @else if $breakpoint == 900 {
+    @media (max-width: $breakpoint-900) { @content; }
+  } @else if $breakpoint == 768 {
+    @media (max-width: $breakpoint-768) { @content; }
+  } @else if $breakpoint == 650 {
+    @media (max-width: $breakpoint-650) { @content; }
+  } @else if $breakpoint == 480 {
+    @media (max-width: $breakpoint-480) { @content; }
+  } @else if $breakpoint == 414 {
+    @media (max-width: $breakpoint-414) { @content; }
+  }
+}
