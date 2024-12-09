@@ -1,0 +1,19 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "Este proyecto es una página web para Maderatorio, una tienda especializada en muebles personalizados y a medida.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgelijah/proyecto_DesarrolloWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgelijah/proyecto_DesarrolloWeb/issues"
+  },
+  "homepage": "https://github.com/jorgelijah/proyecto_DesarrolloWeb#readme"
+}
