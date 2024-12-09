@@ -179,8 +179,8 @@ html {
   border-radius: 5px;
   text-decoration: none;
 }
-
-.online__a:hover,
+.online__a:hover, .online__a:hover,
+.diseñador__a:hover,
 .diseñador__a:hover {
   background-color: #f7f6f2;
   border: solid 1px #c8c6c6;
@@ -201,15 +201,12 @@ html {
 
 .categorias__encabezado {
   grid-area: encabezado;
-  font-size: 16px;
   margin: 10px 0;
 }
-
-.encabezado__h2 {
+.categorias__encabezado .encabezado__h2 {
   font-size: 24px;
 }
-
-.encabezado__p {
+.categorias__encabezado .encabezado__p {
   margin: 10px 20px;
   font-size: 16px;
   font-weight: 300;
