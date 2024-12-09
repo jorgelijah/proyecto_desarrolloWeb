@@ -1,0 +1,42 @@
+/* FOOTER */
+
+.footer {
+  background-color: $color4;
+}
+
+.footer__row {
+  height: 180px;
+}
+
+/* logo */
+.footer__logof {
+  text-align: center;
+}
+
+.logof__img {
+  width: 280px;
+  margin-top: 10px;
+}
+
+/* rrss */
+
+.rrss__ul {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+}
+
+.rrss__a {
+  color: $color1;
+}
+
+/* derechos */
+.footer__derechos {
+  color: $color1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $base-font-size;
+}

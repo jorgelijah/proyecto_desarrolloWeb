@@ -1,0 +1,21 @@
+/* PAGINA CONTACTO */
+.main__contacto {
+  height: 550px;
+  padding: 10px 100px;
+  color: $color4;
+}
+
+.h3__contacto {
+  padding: 20px 0;
+  border-top: solid 1px $color3;
+  font-weight: 400;
+}
+
+.button__contacto {
+  font-size: $base-font-size;
+  background-color: $color4;
+  color: $color1;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+}

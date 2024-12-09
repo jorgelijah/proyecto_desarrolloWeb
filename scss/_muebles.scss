@@ -1,0 +1,63 @@
+/* PAGINA MUEBLES */
+
+.main__muebles {
+  margin: 0 auto;
+  max-width: 1070px;
+  color: $color4;
+}
+
+.muebles__galeria {
+  margin-bottom: 80px;
+}
+
+/* 1 */
+.muebles__h2 {
+  padding: 20px 0;
+  border-top: solid 1px $color3;
+  font-weight: 400;
+}
+
+/* 2 */
+.etiquetas {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.etiquetas__texto {
+  display: flex;
+  width: 300px;
+  justify-content: space-evenly;
+}
+
+/* 3 */
+.muebles__imagen {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  gap: 50px 10px;
+  justify-content: center;
+}
+
+.imagen__a {
+  color: $color4;
+  text-align: center;
+  text-decoration: none;
+}
+
+.imagen__a:hover {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.imagen__a:active {
+  font-weight: 600;
+  color: $color3;
+}
+
+.imagen__img {
+  width: 350px;
+}
+
+.imagen__p {
+  margin: 5px;
+}

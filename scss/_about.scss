@@ -1,0 +1,36 @@
+/* PAGINA ABOUT */
+.main__about {
+  max-width: 1070px;
+  margin: 0 auto;
+  color: $color4;
+  padding: 0 15px;
+}
+
+.about__h2 {
+  padding: 20px 0;
+  border-top: solid 1px $color3;
+  font-weight: 400;
+  text-align: center;
+}
+
+.about__div {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.about__div p {
+  margin: 40px 0;
+  text-align: justify;
+}
+
+.about__img {
+  width: 100%;
+  height: auto;
+  animation: fadeIn 1.5s ease-out;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+.about__img:hover {
+  transform: scale(1.05);
+}

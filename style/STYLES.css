@@ -46,6 +46,47 @@ html {
   color: rgb(36.9310344828, 123.8275862069, 152.0689655172);
 }
 
+/* FOOTER */
+.footer {
+  background-color: #113946;
+}
+
+.footer__row {
+  height: 180px;
+}
+
+/* logo */
+.footer__logof {
+  text-align: center;
+}
+
+.logof__img {
+  width: 280px;
+  margin-top: 10px;
+}
+
+/* rrss */
+.rrss__ul {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+}
+
+.rrss__a {
+  color: #f7f6f2;
+}
+
+/* derechos */
+.footer__derechos {
+  color: #f7f6f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
 /* MAIN */
 /* slogan */
 .main__slogan {
@@ -306,45 +347,177 @@ html {
   font-size: 22px;
 }
 
-/* FOOTER */
-.footer {
-  background-color: #113946;
+/* PAGINA MUEBLES */
+.main__muebles {
+  margin: 0 auto;
+  max-width: 1070px;
+  color: #113946;
 }
 
-.footer__row {
-  height: 180px;
+.muebles__galeria {
+  margin-bottom: 80px;
 }
 
-/* logo */
-.footer__logof {
+/* 1 */
+.muebles__h2 {
+  padding: 20px 0;
+  border-top: solid 1px #c8c6c6;
+  font-weight: 400;
+}
+
+/* 2 */
+.etiquetas {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.etiquetas__texto {
+  display: flex;
+  width: 300px;
+  justify-content: space-evenly;
+}
+
+/* 3 */
+.muebles__imagen {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  gap: 50px 10px;
+  justify-content: center;
+}
+
+.imagen__a {
+  color: #113946;
+  text-align: center;
+  text-decoration: none;
+}
+
+.imagen__a:hover {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.imagen__a:active {
+  font-weight: 600;
+  color: #c8c6c6;
+}
+
+.imagen__img {
+  width: 350px;
+}
+
+.imagen__p {
+  margin: 5px;
+}
+
+/* PAGINA GALERÍA */
+.main__galeria {
+  max-width: 1070px;
+  margin: 0 auto;
+  color: #113946;
+}
+
+.galeria__h2 {
+  padding: 20px 0;
+  border-top: solid 1px #c8c6c6;
+  font-weight: 400;
+}
+
+/* estilos galerías */
+.galerias {
+  margin: 0 auto;
+  display: flex;
+  width: 90%;
+  max-width: 1070px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.galerias img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.9;
+  transition: 0.5s ease;
+}
+
+.galerias img:hover {
+  cursor: pointer;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+/* textos galerías */
+.galeria__h3 {
+  margin-top: 60px;
+  font-weight: 400;
   text-align: center;
 }
 
-.logof__img {
-  width: 280px;
-  margin-top: 10px;
+.galeria__p {
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 300;
 }
 
-/* rrss */
-.rrss__ul {
-  font-size: 40px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 0;
+/* PAGINA ABOUT */
+.main__about {
+  max-width: 1070px;
+  margin: 0 auto;
+  color: #113946;
+  padding: 0 15px;
 }
 
-.rrss__a {
-  color: #f7f6f2;
+.about__h2 {
+  padding: 20px 0;
+  border-top: solid 1px #c8c6c6;
+  font-weight: 400;
+  text-align: center;
 }
 
-/* derechos */
-.footer__derechos {
-  color: #f7f6f2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.about__div {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.about__div p {
+  margin: 40px 0;
+  text-align: justify;
+}
+
+.about__img {
+  width: 100%;
+  height: auto;
+  animation: fadeIn 1.5s ease-out;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+.about__img:hover {
+  transform: scale(1.05);
+}
+
+/* PAGINA CONTACTO */
+.main__contacto {
+  height: 550px;
+  padding: 10px 100px;
+  color: #113946;
+}
+
+.h3__contacto {
+  padding: 20px 0;
+  border-top: solid 1px #c8c6c6;
+  font-weight: 400;
+}
+
+.button__contacto {
   font-size: 18px;
+  background-color: #113946;
+  color: #f7f6f2;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
 }
 
 /* MEDIA QUERIES INDEX*/
@@ -685,7 +858,7 @@ html {
     width: 20px;
   }
   .slogan__h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 @media (max-width: 480px) {
@@ -731,78 +904,6 @@ html {
     text-align: center;
   }
 }
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-/* PAGINA MUEBLES */
-.main__muebles {
-  margin: 0 auto;
-  max-width: 1070px;
-  color: #113946;
-}
-
-.muebles__galeria {
-  margin-bottom: 80px;
-}
-
-/* 1 */
-.muebles__h2 {
-  padding: 20px 0;
-  border-top: solid 1px #c8c6c6;
-  font-weight: 400;
-}
-
-/* 2 */
-.etiquetas {
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.etiquetas__texto {
-  display: flex;
-  width: 300px;
-  justify-content: space-evenly;
-}
-
-/* 3 */
-.muebles__imagen {
-  display: grid;
-  grid-template-columns: repeat(3, 350px);
-  gap: 50px 10px;
-  justify-content: center;
-}
-
-.imagen__a {
-  color: #113946;
-  text-align: center;
-  text-decoration: none;
-}
-
-.imagen__a:hover {
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.imagen__a:active {
-  font-weight: 600;
-  color: #c8c6c6;
-}
-
-.imagen__img {
-  width: 350px;
-}
-
-.imagen__p {
-  margin: 5px;
-}
-
 /* MEDIA QUERIES MUEBLES */
 @media (max-width: 1200px) {
   /* 1 */
@@ -905,64 +1006,7 @@ html {
     width: 250px;
   }
 }
-/* PAGINA GALERÍA */
-/* PAGINA GALERÍA */
-/* PAGINA GALERÍA */
-/* PAGINA GALERÍA */
-/* PAGINA GALERÍA */
-/* PAGINA GALERÍA */
-/* PAGINA GALERÍA */
-/* PAGINA GALERÍA */
-.main__galeria {
-  max-width: 1070px;
-  margin: 0 auto;
-  color: #113946;
-}
-
-.galeria__h2 {
-  padding: 20px 0;
-  border-top: solid 1px #c8c6c6;
-  font-weight: 400;
-}
-
-/* estilos galerías */
-.galerias {
-  margin: 0 auto;
-  display: flex;
-  width: 90%;
-  max-width: 1070px;
-  height: 500px;
-  overflow: hidden;
-}
-
-.galerias img {
-  width: 0px;
-  flex-grow: 1;
-  object-fit: cover;
-  opacity: 0.9;
-  transition: 0.5s ease;
-}
-
-.galerias img:hover {
-  cursor: pointer;
-  width: 300px;
-  opacity: 1;
-  filter: contrast(120%);
-}
-
-/* textos galerías */
-.galeria__h3 {
-  margin-top: 60px;
-  font-weight: 400;
-  text-align: center;
-}
-
-.galeria__p {
-  text-align: justify;
-  font-size: 17px;
-  font-weight: 300;
-}
-
+/* MEDIA QUERIES GALERÍA */
 @media (max-width: 1200px) {
   .main__galeria {
     margin: 0 70px;
@@ -995,53 +1039,7 @@ html {
     font-size: 14px;
   }
 }
-/* PAGINA ABOUT */
-/* PAGINA ABOUT */
-/* PAGINA ABOUT */
-/* PAGINA ABOUT */
-/* PAGINA ABOUT */
-/* PAGINA ABOUT */
-/* PAGINA ABOUT */
-/* PAGINA ABOUT */
-/* PAGINA ABOUT */
-.main__about {
-  max-width: 1070px;
-  margin: 0 auto;
-  color: #113946;
-  padding: 0 15px;
-}
-
-.about__h2 {
-  padding: 20px 0;
-  border-top: solid 1px #c8c6c6;
-  font-weight: 400;
-  text-align: center;
-}
-
-.about__div {
-  margin: 0 auto;
-  max-width: 800px;
-}
-
-.about__div p {
-  margin: 40px 0;
-  text-align: justify;
-}
-
-.about__img {
-  width: 100%;
-  height: auto;
-  animation: fadeIn 1.5s ease-out;
-  margin-bottom: 30px;
-  transition: transform 0.3s ease;
-}
-
-.about__img:hover {
-  transform: scale(1.05);
-}
-
 /* MEDIA QUERIES ABOUT*/
-/* Pantalla de 1200px */
 @media (max-width: 1200px) {
   .main__about {
     padding: 0 30px;
@@ -1051,7 +1049,6 @@ html {
     width: 100%;
   }
 }
-/* Pantalla de 1024px */
 @media (max-width: 1024px) {
   .main__about {
     margin: 0 70px;
@@ -1063,7 +1060,6 @@ html {
     width: 90%;
   }
 }
-/* Pantalla de 900px */
 @media (max-width: 900px) {
   .about__div {
     max-width: 100%;
@@ -1072,7 +1068,6 @@ html {
     width: 100%;
   }
 }
-/* Pantalla de 768px */
 @media (max-width: 768px) {
   .main__about {
     margin: 0 70px;
@@ -1084,7 +1079,6 @@ html {
     font-size: 14px;
   }
 }
-/* Pantalla de 650px */
 @media (max-width: 650px) {
   .about__img {
     width: 100%;
@@ -1092,7 +1086,6 @@ html {
     margin-bottom: 20px;
   }
 }
-/* Pantalla de 480px */
 @media (max-width: 480px) {
   .main__about {
     margin: 0 50px;
@@ -1104,35 +1097,7 @@ html {
     font-size: 12px;
   }
 }
-/* PAGINA CONTACTO */
-/* PAGINA CONTACTO */
-/* PAGINA CONTACTO */
-/* PAGINA CONTACTO */
-/* PAGINA CONTACTO */
-/* PAGINA CONTACTO */
-/* PAGINA CONTACTO */
-/* PAGINA CONTACTO */
-.main__contacto {
-  height: 550px;
-  padding: 10px 100px;
-  color: #113946;
-}
-
-.h3__contacto {
-  padding: 20px 0;
-  border-top: solid 1px #c8c6c6;
-  font-weight: 400;
-}
-
-.button__contacto {
-  font-size: 18px;
-  background-color: #113946;
-  color: #f7f6f2;
-  width: 200px;
-  height: 40px;
-  border-radius: 5px;
-}
-
+/* MEDIA QUERIES CONTACTO*/
 @media (max-width: 650px) {
   .main__contacto {
     margin: 0 50px;
