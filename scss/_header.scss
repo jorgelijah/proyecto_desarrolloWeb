@@ -1,0 +1,30 @@
+/* HEADER */
+
+.header__row {
+  height: 120px;
+  __a {
+    margin: 0 50px;
+    __img {
+      width: 350px;
+    }
+  }
+}
+
+/* BARRA DE NAVEGACIÓN */
+.navbar-collapse {
+  justify-content: center;
+}
+
+.nav__ul {
+  font-size: $base-font-size;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  __a {
+    color: $color4;
+    &:hover {
+      color: lighten($color4, 20%);
+    }
+  }
+}

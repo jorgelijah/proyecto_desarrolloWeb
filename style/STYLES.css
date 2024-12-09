@@ -16,16 +16,14 @@ html {
   min-width: 350px;
 }
 
+/* HEADER */
 .header__row {
   height: 120px;
 }
-
-/* LOGO */
-.header__a {
+.header__row __a {
   margin: 0 50px;
 }
-
-.header__img {
+.header__row __a __img {
   width: 350px;
 }
 
@@ -41,13 +39,11 @@ html {
   justify-content: space-evenly;
   width: 100%;
 }
-
-.nav__a {
+.nav__ul __a {
   color: #113946;
 }
-
-.nav__a:hover {
-  color: #113946;
+.nav__ul __a:hover {
+  color: rgb(36.9310344828, 123.8275862069, 152.0689655172);
 }
 
 /* MAIN */
@@ -354,9 +350,8 @@ html {
 /* MEDIA QUERIES INDEX*/
 @media (max-width: 1440px) {
   /* logo */
-  .navbar__logo {
+  .header__img {
     width: 300px;
-    margin: 20px 80px 20px 20px;
   }
   /* slogan */
   .main__slogan {

@@ -1,42 +1,8 @@
 @import 'variables';
 @import 'base';
-
-.header__row {
-  height: 120px;
-}
-
-/* LOGO */
-.header__a {
-  margin: 0 50px;
-}
-
-.header__img {
-  width: 350px;
-}
-
-/* BARRA DE NAVEGACIÓN */
-.navbar-collapse {
-  justify-content: center;
-}
-
-.nav__ul {
-  font-size: 18px;
-  font-weight: 400;
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-}
-
-.nav__a {
-  color: $color4;
-}
-
-.nav__a:hover {
-  color: $color4;
-}
+@import 'header';
 
 /* MAIN */
-
 /* slogan */
 .main__slogan {
   position: relative;
@@ -118,7 +84,7 @@
 
 .online__a,
 .diseñador__a {
-  font-size: 18px;
+  font-size: $base-font-size;
   background-color: $color4;
   color: $color1;
   width: 200px;
@@ -197,7 +163,7 @@
   right: 50%;
   top: 10%;
   font-weight: 500;
-  font-size: 18px;
+  font-size: $base-font-size;
 }
 
 .categorias__img {
@@ -340,7 +306,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: $base-font-size;
 }
 
 /* MEDIA QUERIES INDEX*/
@@ -348,9 +314,8 @@
 @media (max-width: 1440px) {
 
   /* logo */
-  .navbar__logo {
+  .header__img {
     width: 300px;
-    margin: 20px 80px 20px 20px;
   }
 
   /* slogan */
@@ -571,7 +536,7 @@
 
   .referencia1__h3 {
     grid-area: h3;
-    font-size: 18px;
+    font-size: $base-font-size;
   }
 
   .referencia1__p {
@@ -592,7 +557,7 @@
 
   .referencia2__h3 {
     grid-area: h3;
-    font-size: 18px;
+    font-size: $base-font-size;
   }
 
   .referencia2__p {
@@ -613,7 +578,7 @@
 
   .referencia3__h3 {
     grid-area: h3;
-    font-size: 18px;
+    font-size: $base-font-size;
   }
 
   .referencia3__p {
@@ -1139,7 +1104,7 @@
 
 @media (max-width: 414px) {
   .galeria__h3 {
-    font-size: 18px;
+    font-size: $base-font-size;
   }
 
   .galeria__p {
@@ -1297,7 +1262,7 @@
 }
 
 .button__contacto {
-  font-size: 18px;
+  font-size: $base-font-size;
   background-color: $color4;
   color: $color1;
   width: 200px;

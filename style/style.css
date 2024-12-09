@@ -372,7 +372,7 @@ html {
 @media (max-width: 1440px) {
 
   /* logo */
-  .navbar__logo {
+  .header__img {
     width: 300px;
     margin: 20px 80px 20px 20px;
   }
