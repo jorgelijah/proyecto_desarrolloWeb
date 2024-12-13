@@ -24,7 +24,8 @@ html {
 .header__row __a {
   margin: 0 50px;
 }
-.header__row __a __img {
+
+.header__img {
   width: 350px;
 }
 

@@ -4,11 +4,12 @@
   height: 120px;
   __a {
     margin: 0 50px;
-    __img {
-      width: 350px;
-    }
   }
 }
+
+.header__img {
+    width: 350px;
+  }
 
 /* BARRA DE NAVEGACIÓN */
 .navbar-collapse {
