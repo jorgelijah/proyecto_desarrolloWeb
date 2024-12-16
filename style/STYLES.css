@@ -21,7 +21,8 @@ html {
 .header__row {
   height: 120px;
 }
-.header__row __a {
+
+.header__a {
   margin: 0 50px;
 }
 
@@ -41,10 +42,11 @@ html {
   justify-content: space-evenly;
   width: 100%;
 }
-.nav__ul __a {
+
+.nav__a {
   color: #113946;
 }
-.nav__ul __a:hover {
+.nav__a:hover {
   color: rgb(36.9310344828, 123.8275862069, 152.0689655172);
 }
 
@@ -155,7 +157,7 @@ html {
   border-radius: 10px;
 }
 
-.online__h3,
+.online__h1,
 .diseñador__h3 {
   font-size: 20px;
   font-weight: 500;
