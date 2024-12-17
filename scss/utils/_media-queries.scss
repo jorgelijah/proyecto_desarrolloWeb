@@ -184,7 +184,7 @@
 /* MEDIA QUERIES MUEBLES */
 
 @include respond-to(1200) {
-  .muebles__h2, .etiquetas { margin: 0 70px; }
+  .muebles__h1, .etiquetas { margin: 0 70px; }
   .muebles__imagen {
     display: grid;
     grid-template-columns: repeat(3, 300px);
@@ -215,7 +215,7 @@
 }
 
 @include respond-to(768) {
-  .muebles__h2 { margin: 0 80px; }
+  .muebles__h1 { margin: 0 80px; }
   .etiquetas {
     margin: 0 80px;
     padding: 30px 0;
@@ -312,7 +312,7 @@
 
 @include respond-to(768) {
   .main__about { margin: 0 70px; }
-  .about__h2 { font-size: 24px; }
+  .about__h1 { font-size: 24px; }
   .about__div p { font-size: 14px; }
 }
 
@@ -326,7 +326,7 @@
 
 @include respond-to(480) {
   .main__about { margin: 0 50px; }
-  .about__h2 { font-size: 20px; }
+  .about__h1 { font-size: 20px; }
   .about__div p { font-size: 12px; }
 }
 

@@ -360,7 +360,7 @@ html {
 }
 
 /* 1 */
-.muebles__h2 {
+.muebles__h1 {
   padding: 20px 0;
   border-top: solid 1px #c8c6c6;
   font-weight: 400;
@@ -418,7 +418,7 @@ html {
   color: #113946;
 }
 
-.galeria__h2 {
+.galeria__h1 {
   padding: 20px 0;
   border-top: solid 1px #c8c6c6;
   font-weight: 400;
@@ -470,7 +470,7 @@ html {
   padding: 0 15px;
 }
 
-.about__h2 {
+.about__h1 {
   padding: 20px 0;
   border-top: solid 1px #c8c6c6;
   font-weight: 400;
@@ -506,7 +506,7 @@ html {
   color: #113946;
 }
 
-.h3__contacto {
+.h1__contacto {
   padding: 20px 0;
   border-top: solid 1px #c8c6c6;
   font-weight: 400;
@@ -849,7 +849,7 @@ html {
 }
 /* MEDIA QUERIES MUEBLES */
 @media (max-width: 1200px) {
-  .muebles__h2, .etiquetas {
+  .muebles__h1, .etiquetas {
     margin: 0 70px;
   }
   .muebles__imagen {
@@ -885,7 +885,7 @@ html {
   }
 }
 @media (max-width: 768px) {
-  .muebles__h2 {
+  .muebles__h1 {
     margin: 0 80px;
   }
   .etiquetas {
@@ -1003,7 +1003,7 @@ html {
   .main__about {
     margin: 0 70px;
   }
-  .about__h2 {
+  .about__h1 {
     font-size: 24px;
   }
   .about__div p {
@@ -1021,7 +1021,7 @@ html {
   .main__about {
     margin: 0 50px;
   }
-  .about__h2 {
+  .about__h1 {
     font-size: 20px;
   }
   .about__div p {
