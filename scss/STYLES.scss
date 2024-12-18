@@ -11,74 +11,8 @@
 @import "contacto";
 @import "utils/media-queries";
 
-@each $size, $value in $font-sizes {
-  .text-#{$size} {
-    font-size: $value;
-  }
-}
-.online__h1,
-.diseñador__h1 {
-  @extend .text-medium;
-  font-weight: 500;
-}
-.online__p,
-.diseñador__p {
-  font-size: 17px;
-  font-weight: 300;
-}
-
-@each $size, $value in $font-sizes {
-  .text-#{$size} {
-    font-size: $value;
-  }
-}
-.categorias__encabezado {
-  grid-area: encabezado;
-  margin: 10px 0;
-  .encabezado__h2 {
-    @extend .text-medium;
-  }
-  .encabezado__p {
-    margin: 10px 20px;
-    @extend .text-small;
-    font-weight: 300;
-  }
-}
-
-@each $size, $value in $font-sizes {
-  .text-#{$size} {
-    font-size: $value;
-  }
-}
 
 
-.categorias__a {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  font-size: 16px;
-  color: $color4;
-  height: 182px;
-  border: solid 1px $color1;
-  border-radius: 10px;
-  &:hover {
-    border: solid 1px $color3;
-    border-radius: 10px;
-  }
-}
-
-.categorias__p {
-  position: absolute;
-  transform: translateX(50%);
-  right: 50%;
-  top: 10%;
-  font-weight: 500;
-  @extend .text-base;
-}
-.categorias__img {
-  border-radius: 10px;
-  width: 180px;
-}
 
 /* Animación para las imágenes */
 @keyframes fadeIn {
