@@ -1,7 +1,34 @@
 @charset "UTF-8";
 /* VARIABLES */
 /* variables.scss */
-/* variables.scss */
+.titulo-pequeño {
+  font-size: 12px;
+}
+
+.titulo-secundario {
+  font-size: 14px;
+}
+
+.titulo-principal {
+  font-size: 16px;
+}
+
+.titulo-subtitulo-secundario {
+  font-size: 20px;
+}
+
+.titulo-subtitulo-principal {
+  font-size: 24px;
+}
+
+.titulo-titulo-secundario {
+  font-size: 30px;
+}
+
+.titulo-titulo-principal {
+  font-size: 40px;
+}
+
 /* RESET */
 * {
   box-sizing: border-box;
@@ -1040,105 +1067,6 @@ html {
     padding: 0;
   }
 }
-.text-large {
-  font-size: 40px;
-}
-
-.text-medium, .categorias__encabezado .encabezado__h2, .online__h1,
-.diseñador__h1 {
-  font-size: 24px;
-}
-
-.text-small, .categorias__encabezado .encabezado__p {
-  font-size: 16px;
-}
-
-.text-base, .categorias__p {
-  font-size: 18px;
-}
-
-.online__h1,
-.diseñador__h1 {
-  font-weight: 500;
-}
-
-.online__p,
-.diseñador__p {
-  font-size: 17px;
-  font-weight: 300;
-}
-
-.text-large {
-  font-size: 40px;
-}
-
-.text-medium, .categorias__encabezado .encabezado__h2, .online__h1,
-.diseñador__h1 {
-  font-size: 24px;
-}
-
-.text-small, .categorias__encabezado .encabezado__p {
-  font-size: 16px;
-}
-
-.text-base, .categorias__p {
-  font-size: 18px;
-}
-
-.categorias__encabezado {
-  grid-area: encabezado;
-  margin: 10px 0;
-}
-.categorias__encabezado .encabezado__p {
-  margin: 10px 20px;
-  font-weight: 300;
-}
-
-.text-large {
-  font-size: 40px;
-}
-
-.text-medium, .online__h1,
-.diseñador__h1, .categorias__encabezado .encabezado__h2 {
-  font-size: 24px;
-}
-
-.text-small, .categorias__encabezado .encabezado__p {
-  font-size: 16px;
-}
-
-.text-base, .categorias__p {
-  font-size: 18px;
-}
-
-.categorias__a {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  font-size: 16px;
-  color: #113946;
-  height: 182px;
-  border: solid 1px #f7f6f2;
-  border-radius: 10px;
-}
-.categorias__a:hover {
-  border: solid 1px #c8c6c6;
-  border-radius: 10px;
-}
-
-.categorias__p {
-  position: absolute;
-  transform: translateX(50%);
-  right: 50%;
-  top: 10%;
-  font-weight: 500;
-}
-
-.categorias__img {
-  border-radius: 10px;
-  width: 180px;
-}
-
 /* Animación para las imágenes */
 @keyframes fadeIn {
   0% {
