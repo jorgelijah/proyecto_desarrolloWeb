@@ -105,7 +105,7 @@
 
 @include respond-to(768) {
   .nav__ul { flex-direction: column; }
-  .nav__a { padding: 2px 0px; font-size: 16px; }
+  .nav__a { padding: 2px 0px; }
   .main__formas {
     display: flex;
     flex-direction: column;

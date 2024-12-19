@@ -1,31 +1,31 @@
 @charset "UTF-8";
 /* VARIABLES */
 /* variables.scss */
-.titulo-pequeño {
+.titulo-textoPequeño {
   font-size: 12px;
 }
 
-.titulo-secundario {
+.titulo-textoSecundario {
   font-size: 14px;
 }
 
-.titulo-principal {
+.titulo-textoPrincipal {
   font-size: 16px;
 }
 
-.titulo-subtitulo-secundario {
+.titulo-subtituloSecundario {
   font-size: 20px;
 }
 
-.titulo-subtitulo-principal {
+.titulo-subtituloPrincipal {
   font-size: 24px;
 }
 
-.titulo-titulo-secundario {
+.titulo-secundario {
   font-size: 30px;
 }
 
-.titulo-titulo-principal {
+.titulo-principal {
   font-size: 40px;
 }
 
@@ -64,7 +64,6 @@ html {
 }
 
 .nav__ul {
-  font-size: 18px;
   font-weight: 400;
   display: flex;
   justify-content: space-evenly;
@@ -99,7 +98,6 @@ html {
 
 /* rrss */
 .rrss__ul {
-  font-size: 40px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -116,7 +114,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
 }
 
 /* MAIN */
@@ -129,7 +126,6 @@ html {
 }
 
 .slogan__h2 {
-  font-size: 40px;
   text-align: center;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -160,7 +156,6 @@ html {
 }
 
 .formas__h2 {
-  font-size: 24px;
   grid-area: titulo;
 }
 
@@ -187,19 +182,16 @@ html {
 
 .online__h1,
 .diseñador__h1 {
-  font-size: 20px;
   font-weight: 500;
 }
 
 .online__p,
 .diseñador__p {
-  font-size: 17px;
   font-weight: 300;
 }
 
 .online__a,
 .diseñador__a {
-  font-size: 18px;
   background-color: #113946;
   color: #f7f6f2;
   width: 200px;
@@ -235,12 +227,9 @@ html {
   grid-area: encabezado;
   margin: 10px 0;
 }
-.categorias__encabezado .encabezado__h2 {
-  font-size: 24px;
-}
-.categorias__encabezado .encabezado__p {
+
+.encabezado__p {
   margin: 10px 20px;
-  font-size: 16px;
   font-weight: 300;
 }
 
@@ -255,7 +244,6 @@ html {
   position: relative;
   display: flex;
   flex-direction: column;
-  font-size: 16px;
   color: #113946;
   height: 182px;
   border: solid 1px #f7f6f2;
@@ -273,7 +261,6 @@ html {
   right: 50%;
   top: 10%;
   font-weight: 500;
-  font-size: 18px;
 }
 
 .categorias__img {
@@ -292,7 +279,6 @@ html {
 }
 
 .colores__h1 {
-  font-size: 24px;
   margin-bottom: 40px;
 }
 
@@ -372,10 +358,6 @@ html {
   margin: 20px 0;
 }
 
-.referencia__h1 {
-  font-size: 22px;
-}
-
 /* PAGINA MUEBLES */
 .main__muebles {
   margin: 0 auto;
@@ -392,7 +374,6 @@ html {
   padding: 20px 0;
   border-top: solid 1px #c8c6c6;
   font-weight: 400;
-  font-size: 30px;
 }
 
 /* 2 */
@@ -451,7 +432,6 @@ html {
   padding: 20px 0;
   border-top: solid 1px #c8c6c6;
   font-weight: 400;
-  font-size: 30px;
 }
 
 /* estilos galerías */
@@ -488,7 +468,6 @@ html {
 
 .galeria__p {
   text-align: justify;
-  font-size: 17px;
   font-weight: 300;
 }
 
@@ -505,7 +484,6 @@ html {
   border-top: solid 1px #c8c6c6;
   font-weight: 400;
   text-align: center;
-  font-size: 30px;
 }
 
 .about__div {
@@ -541,11 +519,9 @@ html {
   padding: 20px 0;
   border-top: solid 1px #c8c6c6;
   font-weight: 400;
-  font-size: 30px;
 }
 
 .button__contacto {
-  font-size: 18px;
   background-color: #113946;
   color: #f7f6f2;
   width: 200px;
@@ -741,7 +717,6 @@ html {
   }
   .nav__a {
     padding: 2px 0px;
-    font-size: 16px;
   }
   .main__formas {
     display: flex;
