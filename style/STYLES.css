@@ -29,6 +29,24 @@
   font-size: 40px;
 }
 
+.btn-comun, .diseñador__a, .online__a {
+  background-color: #113946;
+  color: #f7f6f2;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn-comun:hover, .diseñador__a:hover, .online__a:hover {
+  background-color: #f7f6f2;
+  border: solid 1px #c8c6c6;
+  color: #113946;
+}
+
 /* RESET */
 * {
   box-sizing: border-box;
@@ -188,27 +206,6 @@ html {
 .online__p,
 .diseñador__p {
   font-weight: 300;
-}
-
-.online__a,
-.diseñador__a {
-  background-color: #113946;
-  color: #f7f6f2;
-  width: 200px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 500;
-  border-radius: 5px;
-  text-decoration: none;
-}
-.online__a:hover, .online__a:hover,
-.diseñador__a:hover,
-.diseñador__a:hover {
-  background-color: #f7f6f2;
-  border: solid 1px #c8c6c6;
-  color: #113946;
 }
 
 /* categorias */

@@ -74,25 +74,12 @@
   font-weight: 300;
 }
 
-.online__a,
-.diseñador__a {
-  background-color: $color4;
-  color: $color1;
-  width: 200px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 500;
-  border-radius: 5px;
-  text-decoration: none;
+.online__a {
+  @extend .btn-comun;
+}
 
-  &:hover,
-  &:hover {
-    background-color: $color1;
-    border: solid 1px $color3;
-    color: $color4;
-  }
+.diseñador__a {
+  @extend .btn-comun;
 }
 
 /* categorias */
