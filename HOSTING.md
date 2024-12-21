@@ -1,3 +1,3 @@
 ## HOSTING
 
-Sitio en Hosteado en Netlify: https://maderatorio.netlify.app/
+Sitio Hosteado en Netlify: https://maderatorio.netlify.app/
